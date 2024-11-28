@@ -1,12 +1,3 @@
-// -----------------------------------------------------------------------
-// This file is part of  
-//
-// (c) wangyangkehan   (2024/5/24 17:59:24)
-// 
-// For the full copyright and license information, please view the LICENSE
-// file that was distributed with this source code.
-// -----------------------------------------------------------------------
-
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -15,7 +6,7 @@ using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace YKArtTools.AnimAutoCompress
+namespace AnimAutoCompress
 {
     [Serializable]
     public class AnimAndPMap
