@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a50d280d560f2042b903e93206be25a, type: 3}
+  m_Name: AnimAutoCompress
+  m_EditorClassIdentifier: 
+  storePath: Assets/AnimAutoCompress/TempAnimationClip
+  animClip: {fileID: -203655887218126122, guid: fd79c2d82e39f2f4584e621cc4b62d72, type: 3}
+  uniformMask: {fileID: 31900000, guid: 15d64b15d08b78641ba194b5de7749ca, type: 2}
+  removeScaleCurves: 1
+  ignoreRemoveList: []
+  highLevelCompress:
+    retainDecimals: 0
+    resampleCurves: 0
+    animationCompression: 0
+    rotationError: 10
+    positionError: 10
+    scaleError: 10
+  lowLevelCompress:
+    retainDecimals: 4
+    resampleCurves: 1
+    animationCompression: 1
+    rotationError: 2
+    positionError: 2
+    scaleError: 2
+  noCompress:
+    retainDecimals: 0
+    resampleCurves: 1
+    animationCompression: 0
+    rotationError: 0
+    positionError: 0
+    scaleError: 0
+  lowLevelCompressList: []
+  noCompressList: []
